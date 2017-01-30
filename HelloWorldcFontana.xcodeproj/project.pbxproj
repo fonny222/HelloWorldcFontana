@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EABF9D21E36A0B20068DCFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABF9D11E36A0B20068DCFC /* AppDelegate.swift */; };
+		6EABF9D41E36A0B20068DCFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABF9D31E36A0B20068DCFC /* ViewController.swift */; };
+		6EABF9D71E36A0B20068DCFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EABF9D51E36A0B20068DCFC /* Main.storyboard */; };
+		6EABF9D91E36A0B20068DCFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EABF9D81E36A0B20068DCFC /* Assets.xcassets */; };
+		6EABF9DC1E36A0B20068DCFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EABF9DA1E36A0B20068DCFC /* LaunchScreen.storyboard */; };
+		6EABF9E71E36A0B20068DCFC /* HelloWorldcFontanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABF9E61E36A0B20068DCFC /* HelloWorldcFontanaTests.swift */; };
+		6EABF9F21E36A0B20068DCFC /* HelloWorldcFontanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABF9F11E36A0B20068DCFC /* HelloWorldcFontanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EABF9E31E36A0B20068DCFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EABF9C61E36A0B10068DCFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EABF9CD1E36A0B10068DCFC;
+			remoteInfo = HelloWorldcFontana;
+		};
+		6EABF9EE1E36A0B20068DCFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EABF9C61E36A0B10068DCFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EABF9CD1E36A0B10068DCFC;
+			remoteInfo = HelloWorldcFontana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EABF9CE1E36A0B10068DCFC /* HelloWorldcFontana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldcFontana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EABF9D11E36A0B20068DCFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EABF9D31E36A0B20068DCFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EABF9D61E36A0B20068DCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EABF9D81E36A0B20068DCFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EABF9DB1E36A0B20068DCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EABF9DD1E36A0B20068DCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EABF9E21E36A0B20068DCFC /* HelloWorldcFontanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldcFontanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EABF9E61E36A0B20068DCFC /* HelloWorldcFontanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldcFontanaTests.swift; sourceTree = "<group>"; };
+		6EABF9E81E36A0B20068DCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EABF9ED1E36A0B20068DCFC /* HelloWorldcFontanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldcFontanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EABF9F11E36A0B20068DCFC /* HelloWorldcFontanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldcFontanaUITests.swift; sourceTree = "<group>"; };
+		6EABF9F31E36A0B20068DCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EABF9CB1E36A0B10068DCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9DF1E36A0B20068DCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9EA1E36A0B20068DCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EABF9C51E36A0B10068DCFC = {
+			isa = PBXGroup;
+			children = (
+				6EABF9D01E36A0B10068DCFC /* HelloWorldcFontana */,
+				6EABF9E51E36A0B20068DCFC /* HelloWorldcFontanaTests */,
+				6EABF9F01E36A0B20068DCFC /* HelloWorldcFontanaUITests */,
+				6EABF9CF1E36A0B10068DCFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EABF9CF1E36A0B10068DCFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EABF9CE1E36A0B10068DCFC /* HelloWorldcFontana.app */,
+				6EABF9E21E36A0B20068DCFC /* HelloWorldcFontanaTests.xctest */,
+				6EABF9ED1E36A0B20068DCFC /* HelloWorldcFontanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EABF9D01E36A0B10068DCFC /* HelloWorldcFontana */ = {
+			isa = PBXGroup;
+			children = (
+				6EABF9D11E36A0B20068DCFC /* AppDelegate.swift */,
+				6EABF9D31E36A0B20068DCFC /* ViewController.swift */,
+				6EABF9D51E36A0B20068DCFC /* Main.storyboard */,
+				6EABF9D81E36A0B20068DCFC /* Assets.xcassets */,
+				6EABF9DA1E36A0B20068DCFC /* LaunchScreen.storyboard */,
+				6EABF9DD1E36A0B20068DCFC /* Info.plist */,
+			);
+			path = HelloWorldcFontana;
+			sourceTree = "<group>";
+		};
+		6EABF9E51E36A0B20068DCFC /* HelloWorldcFontanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EABF9E61E36A0B20068DCFC /* HelloWorldcFontanaTests.swift */,
+				6EABF9E81E36A0B20068DCFC /* Info.plist */,
+			);
+			path = HelloWorldcFontanaTests;
+			sourceTree = "<group>";
+		};
+		6EABF9F01E36A0B20068DCFC /* HelloWorldcFontanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EABF9F11E36A0B20068DCFC /* HelloWorldcFontanaUITests.swift */,
+				6EABF9F31E36A0B20068DCFC /* Info.plist */,
+			);
+			path = HelloWorldcFontanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EABF9CD1E36A0B10068DCFC /* HelloWorldcFontana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EABF9F61E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontana" */;
+			buildPhases = (
+				6EABF9CA1E36A0B10068DCFC /* Sources */,
+				6EABF9CB1E36A0B10068DCFC /* Frameworks */,
+				6EABF9CC1E36A0B10068DCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldcFontana;
+			productName = HelloWorldcFontana;
+			productReference = 6EABF9CE1E36A0B10068DCFC /* HelloWorldcFontana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EABF9E11E36A0B20068DCFC /* HelloWorldcFontanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EABF9F91E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontanaTests" */;
+			buildPhases = (
+				6EABF9DE1E36A0B20068DCFC /* Sources */,
+				6EABF9DF1E36A0B20068DCFC /* Frameworks */,
+				6EABF9E01E36A0B20068DCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EABF9E41E36A0B20068DCFC /* PBXTargetDependency */,
+			);
+			name = HelloWorldcFontanaTests;
+			productName = HelloWorldcFontanaTests;
+			productReference = 6EABF9E21E36A0B20068DCFC /* HelloWorldcFontanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EABF9EC1E36A0B20068DCFC /* HelloWorldcFontanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EABF9FC1E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontanaUITests" */;
+			buildPhases = (
+				6EABF9E91E36A0B20068DCFC /* Sources */,
+				6EABF9EA1E36A0B20068DCFC /* Frameworks */,
+				6EABF9EB1E36A0B20068DCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EABF9EF1E36A0B20068DCFC /* PBXTargetDependency */,
+			);
+			name = HelloWorldcFontanaUITests;
+			productName = HelloWorldcFontanaUITests;
+			productReference = 6EABF9ED1E36A0B20068DCFC /* HelloWorldcFontanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EABF9C61E36A0B10068DCFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christopher D Fontana";
+				TargetAttributes = {
+					6EABF9CD1E36A0B10068DCFC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					6EABF9E11E36A0B20068DCFC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EABF9CD1E36A0B10068DCFC;
+					};
+					6EABF9EC1E36A0B20068DCFC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EABF9CD1E36A0B10068DCFC;
+					};
+				};
+			};
+			buildConfigurationList = 6EABF9C91E36A0B10068DCFC /* Build configuration list for PBXProject "HelloWorldcFontana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EABF9C51E36A0B10068DCFC;
+			productRefGroup = 6EABF9CF1E36A0B10068DCFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EABF9CD1E36A0B10068DCFC /* HelloWorldcFontana */,
+				6EABF9E11E36A0B20068DCFC /* HelloWorldcFontanaTests */,
+				6EABF9EC1E36A0B20068DCFC /* HelloWorldcFontanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EABF9CC1E36A0B10068DCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EABF9DC1E36A0B20068DCFC /* LaunchScreen.storyboard in Resources */,
+				6EABF9D91E36A0B20068DCFC /* Assets.xcassets in Resources */,
+				6EABF9D71E36A0B20068DCFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9E01E36A0B20068DCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9EB1E36A0B20068DCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EABF9CA1E36A0B10068DCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EABF9D41E36A0B20068DCFC /* ViewController.swift in Sources */,
+				6EABF9D21E36A0B20068DCFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9DE1E36A0B20068DCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EABF9E71E36A0B20068DCFC /* HelloWorldcFontanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EABF9E91E36A0B20068DCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EABF9F21E36A0B20068DCFC /* HelloWorldcFontanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EABF9E41E36A0B20068DCFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EABF9CD1E36A0B10068DCFC /* HelloWorldcFontana */;
+			targetProxy = 6EABF9E31E36A0B20068DCFC /* PBXContainerItemProxy */;
+		};
+		6EABF9EF1E36A0B20068DCFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EABF9CD1E36A0B10068DCFC /* HelloWorldcFontana */;
+			targetProxy = 6EABF9EE1E36A0B20068DCFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EABF9D51E36A0B20068DCFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EABF9D61E36A0B20068DCFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EABF9DA1E36A0B20068DCFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EABF9DB1E36A0B20068DCFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EABF9F41E36A0B20068DCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EABF9F51E36A0B20068DCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EABF9F71E36A0B20068DCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloWorldcFontana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6EABF9F81E36A0B20068DCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloWorldcFontana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6EABF9FA1E36A0B20068DCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloWorldcFontanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldcFontana.app/HelloWorldcFontana";
+			};
+			name = Debug;
+		};
+		6EABF9FB1E36A0B20068DCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloWorldcFontanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldcFontana.app/HelloWorldcFontana";
+			};
+			name = Release;
+		};
+		6EABF9FD1E36A0B20068DCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloWorldcFontanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloWorldcFontana;
+			};
+			name = Debug;
+		};
+		6EABF9FE1E36A0B20068DCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloWorldcFontanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Fontana.HelloWorldcFontanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloWorldcFontana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EABF9C91E36A0B10068DCFC /* Build configuration list for PBXProject "HelloWorldcFontana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EABF9F41E36A0B20068DCFC /* Debug */,
+				6EABF9F51E36A0B20068DCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EABF9F61E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EABF9F71E36A0B20068DCFC /* Debug */,
+				6EABF9F81E36A0B20068DCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EABF9F91E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EABF9FA1E36A0B20068DCFC /* Debug */,
+				6EABF9FB1E36A0B20068DCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EABF9FC1E36A0B20068DCFC /* Build configuration list for PBXNativeTarget "HelloWorldcFontanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EABF9FD1E36A0B20068DCFC /* Debug */,
+				6EABF9FE1E36A0B20068DCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EABF9C61E36A0B10068DCFC /* Project object */;
+}
